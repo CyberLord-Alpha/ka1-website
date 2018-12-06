@@ -1,0 +1,165 @@
+/*** BASE STYLES ***/
+body {  
+        color       : #7F7F7F;
+        font-family : 'Lora', serif;
+     }
+
+#holstee-manifesto {
+        border-bottom : 5px solid #ebebeb;
+        height      : 300px;
+}
+
+#jubilee-austen {
+        border-bottom : 5px solid #ebebeb;
+        height      : 300px;
+}
+
+#rogue-pickings {
+        border-bottom : 5px solid #ffff;
+        height      : 350px;
+}
+
+#contact {
+        height      : 650px;
+    }
+
+/*** GRID ***/
+.full-width {
+        margin      : 0 auto;
+        width       : 1200px;
+    }
+
+.half-width {
+        float       : left;
+        width       : 600px;
+    }
+
+.third-width {
+        float       : left;
+        width       : 400px;
+    }
+
+/*** HEADER SECTION ***/
+header {
+        background  : url(../img/portfolio-hero-img.jpg);
+        background-size: cover;
+        height      : 600px;
+    }
+
+header h1 { 
+        color       : #2d3051;
+        font-family : 'Lora', serif;
+        font-size   : 30px;
+        padding-left: 25px;
+    }
+
+nav {
+        float       : right;   
+    }
+
+nav ul li{
+        display     : inline-block;
+    }
+
+nav ul li a {
+        color       : #2d3051;
+        font-size   : 18px;
+        padding-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+header h2 {  
+        clear       : both;
+        color       : #4f4d4d;
+        font-family : 'Lora', serif;
+        font-size   : 72px;
+        line-height : 80px;
+        padding     : 10px 0 10px 25px;
+        width       : 1000px;
+    }
+
+/*** PORTFOLIO BODY ***/
+
+/***
+Sections under Portfolio Body
+***/
+
+#holstee-manifesto .full-width {
+    padding         : 10px 0px;
+}
+
+#jubilee-austen .full-width {
+    padding         : 10px 0px;
+}
+
+#rogue-pickings .full-width {
+    padding         : 10px 0px;
+}
+
+/***
+Portfolio Body Images
+***/
+
+#hol-man-img, #jub-aus-img, #rog-pic-img {
+        padding     : 10px 0px;
+}
+
+/*** CONTACT SECTION ***/
+#contact {
+        background  : #ebebeb;
+        clear       : both;
+    }
+
+#contact .full-width {
+        padding     : 50px 0;
+    }
+
+#contact h3, #contact #email-header, #contact #socialmedia-header, #contact ul {
+        padding-left: 115px;
+    }
+
+#contact #envelope {
+        padding     : 0 10px 0 115px;
+    }
+
+#contact h3 {
+        font-family : 'Lora', serif;
+        font-size   : 36px;
+        line-height : 44px;
+    }
+
+#contact #email-header{
+        font-size   : 28px;
+        font-weight : bold;
+        line-height : 44px;
+        margin      : -30px 0 5px 0;
+    }
+
+#contact #socialmedia-header {
+        font-size   : 29px;
+        font-weight : bold;
+        line-height : 44px;
+        margin      : 40px 0 0 0;
+    }
+
+#contact a {
+        color       : #c49075;
+        font-size   : 28px;
+        font-weight : bold;
+        text-decoration: none;
+    }
+
+#contact ul {
+        list-style  : none;
+    }
+
+#contact ul li {
+         display    : inline-block;
+    }
+
+#contact ul img {
+        font-size   : 32px;
+        padding-right: 48px;
+    }
+

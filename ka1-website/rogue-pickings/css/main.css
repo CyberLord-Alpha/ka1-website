@@ -1,0 +1,121 @@
+/*** BASE STYLES ***/
+body {
+    color       : #000000;
+    font-family : 'Montserrat', sans-serif;
+}
+#welcome {
+    height      : 150px;   
+}
+
+#specials, #reviews, #contact {
+    height      : 350px;
+}
+
+/*** GRID ***/
+
+.full-width {
+    margin      : 0 auto;
+    width       : 1200px;
+}
+
+.half-width {
+    width       : 600px;
+    float       : left;
+}
+
+.third-width {
+    float       : left;
+    height      : 165px;
+    width       : 400px;
+}
+
+/*** HEADER SECTION ***/
+header {
+    height      : 115px;
+}
+
+header h1 { 
+    color       : #000000;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 30px;
+    font-weight : bold;
+    padding     : 0 15px;
+}
+
+nav {
+    float       : right;
+    padding     : 0 15px;
+}
+
+nav ul li{
+    display     : inline-block;
+}
+
+nav ul li a {
+    color       : #77a466;
+    font-size   : 14px;
+    line-height : 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color       : #77a466;
+}
+
+#hero-image {
+    padding     : 10px 15px;
+}
+
+/*** WELCOME SECTION ***/
+ 
+#welcome h2 {
+    color       : #77a466;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 18px;
+    font-weight : bold;
+    padding-left: 20px;
+}
+
+#welcome p {
+    font-size   : 16px;
+    line-height : 25px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+/*** SPECIALS-REVIEWS-CONTACT SECTION ***/
+#specials-reviews-contact {
+    text-align  : left;
+}
+
+#specials-reviews-contact .full-width {
+    padding     : 0 0 10px 20px;
+}
+
+#specials-reviews-contact h3 {
+    font-size   : 12px;
+    font-weight : bold;
+    line-height : 25px;
+    margin      : 0 auto;
+}
+
+#specials-reviews-contact p {
+    font-size   : 16px;
+    line-height : 21px;  
+}
+
+/*** POWERED SECTION ***/
+#powered .full-width {
+    font-size   : 16px;
+    padding     : 80px 0;
+    text-align  : center;
+}
+
+footer span {
+    color       : #77a466;
+    font-family : 'Pinyon Script', cursive;
+    font-size   : 40px;
+    text-transform: lowercase;
+}
+
